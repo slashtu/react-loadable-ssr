@@ -1,2 +1,5 @@
-# performance
-SSR, code splitting, dynamic import, service worker
+# How to run
+```
+yarn install
+yarn dev
+```
