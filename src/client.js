@@ -10,7 +10,7 @@ import { createStore } from 'store/configStore';
 import { enableDataFetch } from 'reducers/dataFetch';
 
 window.main = () => {
-  const initialState = window.__STORE__
+  const initialState = window.__STORE__;
   const store = createStore(initialState);
 
   Loadable.preloadReady().then(() => {
@@ -20,7 +20,7 @@ window.main = () => {
           <Routes/>
         </Router>
       </Provider>,
-      document.getElementById('app')
-    , () => store.dispatch(enableDataFetch()));
+      document.getElementById('app'),
+      () => store.dispatch(enableDataFetch()));
   });
 };

@@ -8,7 +8,7 @@ import { queryAdoptions } from 'reducers/adoptions';
 
 const mapStateToProps = ({ adoptions }) => {
   return { adoptions };
-}
+};
 
 const fetchAdoptions = ({ dispatch }) => {
   return dispatch(queryAdoptions()) ;
@@ -17,8 +17,8 @@ const fetchAdoptions = ({ dispatch }) => {
 @fetchData(fetchAdoptions)
 @connect(mapStateToProps)
 class FetchAdoptionsComponent extends Component {
-  static contextTypes = {
-    store: PropTypes.object
+  static propTypes = {
+    adoptions: PropTypes.array
   };
 
   renderImages = (adoptions) => {

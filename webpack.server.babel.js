@@ -5,7 +5,7 @@ import nodeExternals from 'webpack-node-externals';
 module.exports = {
   target: 'node',
   entry: {
-    server: './src/server/index'
+    server: './src/server/server'
   },
   output: {
     path: path.join(__dirname, 'dist/server'),

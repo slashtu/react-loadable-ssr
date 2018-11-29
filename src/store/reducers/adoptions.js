@@ -23,4 +23,4 @@ export const queryAdoptions = () => async (dispatch) => {
   const adoptions = await res.json();
 
   dispatch({type: ADOPTIONS_SUCCESS, adoptions: Object.values(adoptions)})
-}
+};

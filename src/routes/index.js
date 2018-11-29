@@ -22,16 +22,16 @@ class Routes extends Component {
 
   render() {
     return (
-        <div className="container">
-          <header className="navbar navbar-expand-lg navbar-light bg-light">
-            <ul className="nav">
-              <li className="nav-item"><Link className="nav-link" to="/">Home</Link></li>
-              <li className="nav-item"><Link className="nav-link" to="/adoptions">Adoptions</Link></li>
-            </ul>
-          </header>
-          <Route exact path="/" component={AsyncHome} />
-          <Route path="/adoptions" component={AsyncAdoptions} />
-        </div>
+      <div className="container">
+        <header className="navbar navbar-expand-lg navbar-light bg-light">
+          <ul className="nav">
+            <li className="nav-item"><Link className="nav-link" to="/">Home</Link></li>
+            <li className="nav-item"><Link className="nav-link" to="/adoptions">Adoptions</Link></li>
+          </ul>
+        </header>
+        <Route exact path="/" component={AsyncHome} />
+        <Route path="/adoptions" component={AsyncAdoptions} />
+      </div>
     );
   }
 }
