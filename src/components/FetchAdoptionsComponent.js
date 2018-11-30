@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 
-import fetchData from '../hocs/fetchData';
+import fetchData from 'hocs/fetchData';
 import { queryAdoptions } from 'reducers/adoptions';
 
 const mapStateToProps = ({ adoptions }) => {
@@ -11,7 +11,7 @@ const mapStateToProps = ({ adoptions }) => {
 };
 
 const fetchAdoptions = ({ dispatch }) => {
-  return dispatch(queryAdoptions()) ;
+  return dispatch(queryAdoptions());
 };
 
 @fetchData(fetchAdoptions)

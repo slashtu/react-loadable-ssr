@@ -22,5 +22,5 @@ export const queryAdoptions = () => async (dispatch) => {
   const res = await fetch(`http://asms.coa.gov.tw/Asms/api/ViewNowAnimal?pageSize=30&currentPage=${~~(Math.random() * 10) + 1}`);
   const adoptions = await res.json();
 
-  dispatch({type: ADOPTIONS_SUCCESS, adoptions: Object.values(adoptions)})
+  dispatch({type: ADOPTIONS_SUCCESS, adoptions: Object.values(adoptions)});
 };

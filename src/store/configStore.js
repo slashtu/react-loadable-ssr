@@ -1,7 +1,7 @@
 
 /*global __CLIENT__*/
 import {createStore as createReduxStore, applyMiddleware, compose} from 'redux';
-import thunk from 'redux-thunk' 
+import thunk from 'redux-thunk';
 import reducers from 'reducers/reducers';
 
 export const createStore = (initialState = {}) => {

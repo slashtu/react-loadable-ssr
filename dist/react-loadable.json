@@ -1,13 +1,13 @@
 {
   "../components/Home": [
     {
-      "id": 43,
+      "id": 42,
       "name": "./src/components/Home.js",
       "file": "0.js",
       "publicPath": "/dist/0.js"
     },
     {
-      "id": 43,
+      "id": 42,
       "name": "./src/components/Home.js",
       "file": "0.js.map",
       "publicPath": "/dist/0.js.map"
@@ -15,13 +15,13 @@
   ],
   "../components/Adoptions": [
     {
-      "id": 44,
+      "id": 43,
       "name": "./src/components/Adoptions.js",
       "file": "1.js",
       "publicPath": "/dist/1.js"
     },
     {
-      "id": 44,
+      "id": 43,
       "name": "./src/components/Adoptions.js",
       "file": "1.js.map",
       "publicPath": "/dist/1.js.map"
@@ -29,13 +29,13 @@
   ],
   "./FetchAdoptionsComponent": [
     {
-      "id": 115,
+      "id": 109,
       "name": "./src/components/FetchAdoptionsComponent.js",
       "file": "2.js",
       "publicPath": "/dist/2.js"
     },
     {
-      "id": 115,
+      "id": 109,
       "name": "./src/components/FetchAdoptionsComponent.js",
       "file": "2.js.map",
       "publicPath": "/dist/2.js.map"
@@ -43,13 +43,13 @@
   ],
   "unfetch": [
     {
-      "id": 116,
+      "id": 110,
       "name": "./node_modules/unfetch/dist/unfetch.es.js",
       "file": "2.js",
       "publicPath": "/dist/2.js"
     },
     {
-      "id": 116,
+      "id": 110,
       "name": "./node_modules/unfetch/dist/unfetch.es.js",
       "file": "2.js.map",
       "publicPath": "/dist/2.js.map"
@@ -57,27 +57,27 @@
   ],
   "isomorphic-unfetch": [
     {
-      "id": 117,
+      "id": 111,
       "name": "./node_modules/isomorphic-unfetch/browser.js",
       "file": "2.js",
       "publicPath": "/dist/2.js"
     },
     {
-      "id": 117,
+      "id": 111,
       "name": "./node_modules/isomorphic-unfetch/browser.js",
       "file": "2.js.map",
       "publicPath": "/dist/2.js.map"
     }
   ],
-  "../hocs/fetchData": [
+  "hocs/fetchData": [
     {
-      "id": 118,
+      "id": 112,
       "name": "./src/hocs/fetchData.js",
       "file": "2.js",
       "publicPath": "/dist/2.js"
     },
     {
-      "id": 118,
+      "id": 112,
       "name": "./src/hocs/fetchData.js",
       "file": "2.js.map",
       "publicPath": "/dist/2.js.map"
@@ -133,7 +133,7 @@
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 7,
+      "id": 6,
       "name": "./node_modules/history/node_modules/warning/browser.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
@@ -145,7 +145,7 @@
       "publicPath": "/dist/main.js.map"
     },
     {
-      "id": 7,
+      "id": 6,
       "name": "./node_modules/history/node_modules/warning/browser.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -165,29 +165,15 @@
       "publicPath": "/dist/main.js.map"
     }
   ],
-  "object-assign": [
-    {
-      "id": 5,
-      "name": "./node_modules/object-assign/index.js",
-      "file": "main.js",
-      "publicPath": "/dist/main.js"
-    },
-    {
-      "id": 5,
-      "name": "./node_modules/object-assign/index.js",
-      "file": "main.js.map",
-      "publicPath": "/dist/main.js.map"
-    }
-  ],
   "./PathUtils": [
     {
-      "id": 6,
+      "id": 5,
       "name": "./node_modules/history/es/PathUtils.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 6,
+      "id": 5,
       "name": "./node_modules/history/es/PathUtils.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -195,13 +181,13 @@
   ],
   "./LocationUtils": [
     {
-      "id": 8,
+      "id": 7,
       "name": "./node_modules/history/es/LocationUtils.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 8,
+      "id": 7,
       "name": "./node_modules/history/es/LocationUtils.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -209,14 +195,28 @@
   ],
   "redux": [
     {
-      "id": 9,
+      "id": 8,
       "name": "./node_modules/redux/es/index.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 9,
+      "id": 8,
       "name": "./node_modules/redux/es/index.js",
+      "file": "main.js.map",
+      "publicPath": "/dist/main.js.map"
+    }
+  ],
+  "object-assign": [
+    {
+      "id": 9,
+      "name": "./node_modules/object-assign/index.js",
+      "file": "main.js",
+      "publicPath": "/dist/main.js"
+    },
+    {
+      "id": 9,
+      "name": "./node_modules/object-assign/index.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
     }
@@ -235,29 +235,15 @@
       "publicPath": "/dist/main.js.map"
     }
   ],
-  "./lib/ReactPropTypesSecret": [
-    {
-      "id": 11,
-      "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
-      "file": "main.js",
-      "publicPath": "/dist/main.js"
-    },
-    {
-      "id": 11,
-      "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
-      "file": "main.js.map",
-      "publicPath": "/dist/main.js.map"
-    }
-  ],
   "./createTransitionManager": [
     {
-      "id": 12,
+      "id": 11,
       "name": "./node_modules/history/es/createTransitionManager.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 12,
+      "id": 11,
       "name": "./node_modules/history/es/createTransitionManager.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -265,13 +251,13 @@
   ],
   "./Router": [
     {
-      "id": 13,
+      "id": 12,
       "name": "./node_modules/react-router-dom/es/Router.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 13,
+      "id": 12,
       "name": "./node_modules/react-router-dom/es/Router.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -279,13 +265,13 @@
   ],
   "react-router/es/Router": [
     {
-      "id": 14,
+      "id": 13,
       "name": "./node_modules/react-router/es/Router.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 14,
+      "id": 13,
       "name": "./node_modules/react-router/es/Router.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -293,13 +279,13 @@
   ],
   "react-router/es/matchPath": [
     {
-      "id": 15,
+      "id": 14,
       "name": "./node_modules/react-router/es/matchPath.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 15,
+      "id": 14,
       "name": "./node_modules/react-router/es/matchPath.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -307,13 +293,13 @@
   ],
   "../utils/warning": [
     {
-      "id": 16,
+      "id": 15,
       "name": "./node_modules/react-redux/es/utils/warning.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 16,
+      "id": 15,
       "name": "./node_modules/react-redux/es/utils/warning.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -321,13 +307,13 @@
   ],
   "@babel/runtime/helpers/esm/extends": [
     {
-      "id": 17,
+      "id": 16,
       "name": "./node_modules/@babel/runtime/helpers/esm/extends.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 17,
+      "id": 16,
       "name": "./node_modules/@babel/runtime/helpers/esm/extends.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -335,13 +321,13 @@
   ],
   "@babel/runtime/helpers/esm/objectWithoutPropertiesLoose": [
     {
-      "id": 18,
+      "id": 17,
       "name": "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 18,
+      "id": 17,
       "name": "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -349,13 +335,13 @@
   ],
   "react-loadable": [
     {
-      "id": 19,
+      "id": 18,
       "name": "./node_modules/react-loadable/lib/index.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 19,
+      "id": 18,
       "name": "./node_modules/react-loadable/lib/index.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -363,41 +349,41 @@
   ],
   "reducers/dataFetch": [
     {
-      "id": 20,
+      "id": 19,
       "name": "./src/store/reducers/dataFetch.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 20,
+      "id": 19,
       "name": "./src/store/reducers/dataFetch.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
     }
   ],
-  "scheduler": [
+  "./lib/ReactPropTypesSecret": [
     {
-      "id": 21,
-      "name": "./node_modules/scheduler/index.js",
+      "id": 20,
+      "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 21,
-      "name": "./node_modules/scheduler/index.js",
+      "id": 20,
+      "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
     }
   ],
   "react-router-dom": [
     {
-      "id": 22,
+      "id": 21,
       "name": "./node_modules/react-router-dom/es/index.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 22,
+      "id": 21,
       "name": "./node_modules/react-router-dom/es/index.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -405,13 +391,13 @@
   ],
   "./DOMUtils": [
     {
-      "id": 23,
+      "id": 22,
       "name": "./node_modules/history/es/DOMUtils.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 23,
+      "id": 22,
       "name": "./node_modules/history/es/DOMUtils.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -419,13 +405,13 @@
   ],
   "./Link": [
     {
-      "id": 24,
+      "id": 23,
       "name": "./node_modules/react-router-dom/es/Link.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 24,
+      "id": 23,
       "name": "./node_modules/react-router-dom/es/Link.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -433,13 +419,13 @@
   ],
   "./Route": [
     {
-      "id": 25,
+      "id": 24,
       "name": "./node_modules/react-router-dom/es/Route.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 25,
+      "id": 24,
       "name": "./node_modules/react-router-dom/es/Route.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -447,13 +433,13 @@
   ],
   "react-router/es/Route": [
     {
-      "id": 26,
+      "id": 25,
       "name": "./node_modules/react-router/es/Route.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 26,
+      "id": 25,
       "name": "./node_modules/react-router/es/Route.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -461,13 +447,13 @@
   ],
   "path-to-regexp": [
     {
-      "id": 27,
+      "id": 26,
       "name": "./node_modules/react-router/node_modules/path-to-regexp/index.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 27,
+      "id": 26,
       "name": "./node_modules/react-router/node_modules/path-to-regexp/index.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -475,13 +461,13 @@
   ],
   "react-router/es/generatePath": [
     {
-      "id": 28,
+      "id": 27,
       "name": "./node_modules/react-router/es/generatePath.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 28,
+      "id": 27,
       "name": "./node_modules/react-router/es/generatePath.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -489,13 +475,13 @@
   ],
   "@babel/runtime/helpers/esm/inheritsLoose": [
     {
-      "id": 29,
+      "id": 28,
       "name": "./node_modules/@babel/runtime/helpers/esm/inheritsLoose.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 29,
+      "id": 28,
       "name": "./node_modules/@babel/runtime/helpers/esm/inheritsLoose.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -503,13 +489,13 @@
   ],
   "../utils/PropTypes": [
     {
-      "id": 30,
+      "id": 29,
       "name": "./node_modules/react-redux/es/utils/PropTypes.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 30,
+      "id": 29,
       "name": "./node_modules/react-redux/es/utils/PropTypes.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -517,13 +503,13 @@
   ],
   "./components/connectAdvanced": [
     {
-      "id": 31,
+      "id": 30,
       "name": "./node_modules/react-redux/es/components/connectAdvanced.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 31,
+      "id": 30,
       "name": "./node_modules/react-redux/es/components/connectAdvanced.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -531,13 +517,13 @@
   ],
   "react-is": [
     {
-      "id": 32,
+      "id": 31,
       "name": "./node_modules/react-is/index.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 32,
+      "id": 31,
       "name": "./node_modules/react-is/index.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -545,13 +531,13 @@
   ],
   "./createStore": [
     {
-      "id": 33,
+      "id": 32,
       "name": "./node_modules/redux/es/createStore.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 33,
+      "id": 32,
       "name": "./node_modules/redux/es/createStore.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -559,13 +545,13 @@
   ],
   "lodash-es/isPlainObject": [
     {
-      "id": 34,
+      "id": 33,
       "name": "./node_modules/lodash-es/isPlainObject.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 34,
+      "id": 33,
       "name": "./node_modules/lodash-es/isPlainObject.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -573,13 +559,13 @@
   ],
   "./_Symbol.js": [
     {
-      "id": 35,
+      "id": 34,
       "name": "./node_modules/lodash-es/_Symbol.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 35,
+      "id": 34,
       "name": "./node_modules/lodash-es/_Symbol.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -587,13 +573,13 @@
   ],
   "./../../webpack/buildin/global.js": [
     {
-      "id": 36,
+      "id": 35,
       "name": "./node_modules/webpack/buildin/global.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 36,
+      "id": 35,
       "name": "./node_modules/webpack/buildin/global.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -601,13 +587,13 @@
   ],
   "./utils/warning": [
     {
-      "id": 37,
+      "id": 36,
       "name": "./node_modules/redux/es/utils/warning.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 37,
+      "id": 36,
       "name": "./node_modules/redux/es/utils/warning.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -615,13 +601,13 @@
   ],
   "./compose": [
     {
-      "id": 38,
+      "id": 37,
       "name": "./node_modules/redux/es/compose.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 38,
+      "id": 37,
       "name": "./node_modules/redux/es/compose.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -629,13 +615,13 @@
   ],
   "./wrapMapToProps": [
     {
-      "id": 39,
+      "id": 38,
       "name": "./node_modules/react-redux/es/connect/wrapMapToProps.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 39,
+      "id": 38,
       "name": "./node_modules/react-redux/es/connect/wrapMapToProps.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -643,13 +629,13 @@
   ],
   "../utils/verifyPlainObject": [
     {
-      "id": 40,
+      "id": 39,
       "name": "./node_modules/react-redux/es/utils/verifyPlainObject.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 40,
+      "id": 39,
       "name": "./node_modules/react-redux/es/utils/verifyPlainObject.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -657,13 +643,13 @@
   ],
   "react-redux": [
     {
-      "id": 41,
+      "id": 40,
       "name": "./node_modules/react-redux/es/index.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 41,
+      "id": 40,
       "name": "./node_modules/react-redux/es/index.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -671,13 +657,13 @@
   ],
   "../components/Loading": [
     {
-      "id": 42,
+      "id": 41,
       "name": "./src/components/Loading.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 42,
+      "id": 41,
       "name": "./src/components/Loading.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -685,13 +671,13 @@
   ],
   "reducers/adoptions": [
     {
-      "id": 45,
+      "id": 44,
       "name": "./src/store/reducers/adoptions.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 45,
+      "id": 44,
       "name": "./src/store/reducers/adoptions.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -699,41 +685,27 @@
   ],
   "./src/client": [
     {
-      "id": 46,
+      "id": 45,
       "name": "./src/client.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 46,
+      "id": 45,
       "name": "./src/client.js",
-      "file": "main.js.map",
-      "publicPath": "/dist/main.js.map"
-    }
-  ],
-  "./cjs/react.production.min.js": [
-    {
-      "id": 47,
-      "name": "./node_modules/react/cjs/react.production.min.js",
-      "file": "main.js",
-      "publicPath": "/dist/main.js"
-    },
-    {
-      "id": 47,
-      "name": "./node_modules/react/cjs/react.production.min.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
     }
   ],
   "./cjs/react.development.js": [
     {
-      "id": 48,
+      "id": 46,
       "name": "./node_modules/react/cjs/react.development.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 48,
+      "id": 46,
       "name": "./node_modules/react/cjs/react.development.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -741,111 +713,83 @@
   ],
   "react-dom": [
     {
-      "id": 49,
+      "id": 47,
       "name": "./node_modules/react-dom/index.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 49,
+      "id": 47,
       "name": "./node_modules/react-dom/index.js",
-      "file": "main.js.map",
-      "publicPath": "/dist/main.js.map"
-    }
-  ],
-  "./cjs/react-dom.production.min.js": [
-    {
-      "id": 50,
-      "name": "./node_modules/react-dom/cjs/react-dom.production.min.js",
-      "file": "main.js",
-      "publicPath": "/dist/main.js"
-    },
-    {
-      "id": 50,
-      "name": "./node_modules/react-dom/cjs/react-dom.production.min.js",
-      "file": "main.js.map",
-      "publicPath": "/dist/main.js.map"
-    }
-  ],
-  "./cjs/scheduler.production.min.js": [
-    {
-      "id": 51,
-      "name": "./node_modules/scheduler/cjs/scheduler.production.min.js",
-      "file": "main.js",
-      "publicPath": "/dist/main.js"
-    },
-    {
-      "id": 51,
-      "name": "./node_modules/scheduler/cjs/scheduler.production.min.js",
-      "file": "main.js.map",
-      "publicPath": "/dist/main.js.map"
-    }
-  ],
-  "./cjs/scheduler.development.js": [
-    {
-      "id": 52,
-      "name": "./node_modules/scheduler/cjs/scheduler.development.js",
-      "file": "main.js",
-      "publicPath": "/dist/main.js"
-    },
-    {
-      "id": 52,
-      "name": "./node_modules/scheduler/cjs/scheduler.development.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
     }
   ],
   "./cjs/react-dom.development.js": [
     {
-      "id": 53,
+      "id": 48,
       "name": "./node_modules/react-dom/cjs/react-dom.development.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 53,
+      "id": 48,
       "name": "./node_modules/react-dom/cjs/react-dom.development.js",
+      "file": "main.js.map",
+      "publicPath": "/dist/main.js.map"
+    }
+  ],
+  "scheduler": [
+    {
+      "id": 49,
+      "name": "./node_modules/scheduler/index.js",
+      "file": "main.js",
+      "publicPath": "/dist/main.js"
+    },
+    {
+      "id": 49,
+      "name": "./node_modules/scheduler/index.js",
+      "file": "main.js.map",
+      "publicPath": "/dist/main.js.map"
+    }
+  ],
+  "./cjs/scheduler.development.js": [
+    {
+      "id": 50,
+      "name": "./node_modules/scheduler/cjs/scheduler.development.js",
+      "file": "main.js",
+      "publicPath": "/dist/main.js"
+    },
+    {
+      "id": 50,
+      "name": "./node_modules/scheduler/cjs/scheduler.development.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
     }
   ],
   "scheduler/tracing": [
     {
-      "id": 54,
+      "id": 51,
       "name": "./node_modules/scheduler/tracing.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 54,
+      "id": 51,
       "name": "./node_modules/scheduler/tracing.js",
-      "file": "main.js.map",
-      "publicPath": "/dist/main.js.map"
-    }
-  ],
-  "./cjs/scheduler-tracing.production.min.js": [
-    {
-      "id": 55,
-      "name": "./node_modules/scheduler/cjs/scheduler-tracing.production.min.js",
-      "file": "main.js",
-      "publicPath": "/dist/main.js"
-    },
-    {
-      "id": 55,
-      "name": "./node_modules/scheduler/cjs/scheduler-tracing.production.min.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
     }
   ],
   "./cjs/scheduler-tracing.development.js": [
     {
-      "id": 56,
+      "id": 52,
       "name": "./node_modules/scheduler/cjs/scheduler-tracing.development.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 56,
+      "id": 52,
       "name": "./node_modules/scheduler/cjs/scheduler-tracing.development.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -853,41 +797,27 @@
   ],
   "./factoryWithTypeCheckers": [
     {
-      "id": 57,
+      "id": 53,
       "name": "./node_modules/prop-types/factoryWithTypeCheckers.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 57,
+      "id": 53,
       "name": "./node_modules/prop-types/factoryWithTypeCheckers.js",
-      "file": "main.js.map",
-      "publicPath": "/dist/main.js.map"
-    }
-  ],
-  "./factoryWithThrowingShims": [
-    {
-      "id": 58,
-      "name": "./node_modules/prop-types/factoryWithThrowingShims.js",
-      "file": "main.js",
-      "publicPath": "/dist/main.js"
-    },
-    {
-      "id": 58,
-      "name": "./node_modules/prop-types/factoryWithThrowingShims.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
     }
   ],
   "./BrowserRouter": [
     {
-      "id": 59,
+      "id": 54,
       "name": "./node_modules/react-router-dom/es/BrowserRouter.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 59,
+      "id": 54,
       "name": "./node_modules/react-router-dom/es/BrowserRouter.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -895,13 +825,13 @@
   ],
   "./createBrowserHistory": [
     {
-      "id": 60,
+      "id": 55,
       "name": "./node_modules/history/es/createBrowserHistory.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 60,
+      "id": 55,
       "name": "./node_modules/history/es/createBrowserHistory.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -909,13 +839,13 @@
   ],
   "resolve-pathname": [
     {
-      "id": 61,
+      "id": 56,
       "name": "./node_modules/resolve-pathname/index.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 61,
+      "id": 56,
       "name": "./node_modules/resolve-pathname/index.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -923,13 +853,13 @@
   ],
   "value-equal": [
     {
-      "id": 62,
+      "id": 57,
       "name": "./node_modules/value-equal/index.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 62,
+      "id": 57,
       "name": "./node_modules/value-equal/index.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -937,13 +867,13 @@
   ],
   "./createHashHistory": [
     {
-      "id": 63,
+      "id": 58,
       "name": "./node_modules/history/es/createHashHistory.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 63,
+      "id": 58,
       "name": "./node_modules/history/es/createHashHistory.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -951,13 +881,13 @@
   ],
   "./createMemoryHistory": [
     {
-      "id": 64,
+      "id": 59,
       "name": "./node_modules/history/es/createMemoryHistory.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 64,
+      "id": 59,
       "name": "./node_modules/history/es/createMemoryHistory.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -965,13 +895,13 @@
   ],
   "./HashRouter": [
     {
-      "id": 65,
+      "id": 60,
       "name": "./node_modules/react-router-dom/es/HashRouter.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 65,
+      "id": 60,
       "name": "./node_modules/react-router-dom/es/HashRouter.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -979,13 +909,13 @@
   ],
   "./MemoryRouter": [
     {
-      "id": 66,
+      "id": 61,
       "name": "./node_modules/react-router-dom/es/MemoryRouter.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 66,
+      "id": 61,
       "name": "./node_modules/react-router-dom/es/MemoryRouter.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -993,13 +923,13 @@
   ],
   "react-router/es/MemoryRouter": [
     {
-      "id": 67,
+      "id": 62,
       "name": "./node_modules/react-router/es/MemoryRouter.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 67,
+      "id": 62,
       "name": "./node_modules/react-router/es/MemoryRouter.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -1007,13 +937,13 @@
   ],
   "./NavLink": [
     {
-      "id": 68,
+      "id": 63,
       "name": "./node_modules/react-router-dom/es/NavLink.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 68,
+      "id": 63,
       "name": "./node_modules/react-router-dom/es/NavLink.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -1021,13 +951,13 @@
   ],
   "isarray": [
     {
-      "id": 69,
+      "id": 64,
       "name": "./node_modules/react-router/node_modules/isarray/index.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 69,
+      "id": 64,
       "name": "./node_modules/react-router/node_modules/isarray/index.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -1035,13 +965,13 @@
   ],
   "./Prompt": [
     {
-      "id": 70,
+      "id": 65,
       "name": "./node_modules/react-router-dom/es/Prompt.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 70,
+      "id": 65,
       "name": "./node_modules/react-router-dom/es/Prompt.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -1049,13 +979,13 @@
   ],
   "react-router/es/Prompt": [
     {
-      "id": 71,
+      "id": 66,
       "name": "./node_modules/react-router/es/Prompt.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 71,
+      "id": 66,
       "name": "./node_modules/react-router/es/Prompt.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -1063,13 +993,13 @@
   ],
   "./Redirect": [
     {
-      "id": 72,
+      "id": 67,
       "name": "./node_modules/react-router-dom/es/Redirect.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 72,
+      "id": 67,
       "name": "./node_modules/react-router-dom/es/Redirect.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -1077,13 +1007,13 @@
   ],
   "react-router/es/Redirect": [
     {
-      "id": 73,
+      "id": 68,
       "name": "./node_modules/react-router/es/Redirect.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 73,
+      "id": 68,
       "name": "./node_modules/react-router/es/Redirect.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -1091,13 +1021,13 @@
   ],
   "./StaticRouter": [
     {
-      "id": 74,
+      "id": 69,
       "name": "./node_modules/react-router-dom/es/StaticRouter.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 74,
+      "id": 69,
       "name": "./node_modules/react-router-dom/es/StaticRouter.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -1105,13 +1035,13 @@
   ],
   "react-router/es/StaticRouter": [
     {
-      "id": 75,
+      "id": 70,
       "name": "./node_modules/react-router/es/StaticRouter.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 75,
+      "id": 70,
       "name": "./node_modules/react-router/es/StaticRouter.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -1119,13 +1049,13 @@
   ],
   "./Switch": [
     {
-      "id": 76,
+      "id": 71,
       "name": "./node_modules/react-router-dom/es/Switch.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 76,
+      "id": 71,
       "name": "./node_modules/react-router-dom/es/Switch.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -1133,13 +1063,13 @@
   ],
   "react-router/es/Switch": [
     {
-      "id": 77,
+      "id": 72,
       "name": "./node_modules/react-router/es/Switch.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 77,
+      "id": 72,
       "name": "./node_modules/react-router/es/Switch.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -1147,13 +1077,13 @@
   ],
   "./generatePath": [
     {
-      "id": 78,
+      "id": 73,
       "name": "./node_modules/react-router-dom/es/generatePath.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 78,
+      "id": 73,
       "name": "./node_modules/react-router-dom/es/generatePath.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -1161,13 +1091,13 @@
   ],
   "./matchPath": [
     {
-      "id": 79,
+      "id": 74,
       "name": "./node_modules/react-router-dom/es/matchPath.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 79,
+      "id": 74,
       "name": "./node_modules/react-router-dom/es/matchPath.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -1175,13 +1105,13 @@
   ],
   "./withRouter": [
     {
-      "id": 80,
+      "id": 75,
       "name": "./node_modules/react-router-dom/es/withRouter.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 80,
+      "id": 75,
       "name": "./node_modules/react-router-dom/es/withRouter.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -1189,13 +1119,13 @@
   ],
   "react-router/es/withRouter": [
     {
-      "id": 81,
+      "id": 76,
       "name": "./node_modules/react-router/es/withRouter.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 81,
+      "id": 76,
       "name": "./node_modules/react-router/es/withRouter.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -1203,25 +1133,25 @@
   ],
   "hoist-non-react-statics": [
     {
-      "id": 82,
+      "id": 77,
       "name": "./node_modules/react-router/node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 85,
+      "id": 80,
       "name": "./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 82,
+      "id": 77,
       "name": "./node_modules/react-router/node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
     },
     {
-      "id": 85,
+      "id": 80,
       "name": "./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -1229,13 +1159,13 @@
   ],
   "./components/Provider": [
     {
-      "id": 83,
+      "id": 78,
       "name": "./node_modules/react-redux/es/components/Provider.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 83,
+      "id": 78,
       "name": "./node_modules/react-redux/es/components/Provider.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -1243,41 +1173,27 @@
   ],
   "@babel/runtime/helpers/esm/assertThisInitialized": [
     {
-      "id": 84,
+      "id": 79,
       "name": "./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 84,
+      "id": 79,
       "name": "./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js",
-      "file": "main.js.map",
-      "publicPath": "/dist/main.js.map"
-    }
-  ],
-  "./cjs/react-is.production.min.js": [
-    {
-      "id": 86,
-      "name": "./node_modules/react-is/cjs/react-is.production.min.js",
-      "file": "main.js",
-      "publicPath": "/dist/main.js"
-    },
-    {
-      "id": 86,
-      "name": "./node_modules/react-is/cjs/react-is.production.min.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
     }
   ],
   "./cjs/react-is.development.js": [
     {
-      "id": 87,
+      "id": 81,
       "name": "./node_modules/react-is/cjs/react-is.development.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 87,
+      "id": 81,
       "name": "./node_modules/react-is/cjs/react-is.development.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -1285,13 +1201,13 @@
   ],
   "../utils/Subscription": [
     {
-      "id": 88,
+      "id": 82,
       "name": "./node_modules/react-redux/es/utils/Subscription.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 88,
+      "id": 82,
       "name": "./node_modules/react-redux/es/utils/Subscription.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -1299,13 +1215,13 @@
   ],
   "./connect/connect": [
     {
-      "id": 89,
+      "id": 83,
       "name": "./node_modules/react-redux/es/connect/connect.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 89,
+      "id": 83,
       "name": "./node_modules/react-redux/es/connect/connect.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -1313,13 +1229,13 @@
   ],
   "../utils/shallowEqual": [
     {
-      "id": 90,
+      "id": 84,
       "name": "./node_modules/react-redux/es/utils/shallowEqual.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 90,
+      "id": 84,
       "name": "./node_modules/react-redux/es/utils/shallowEqual.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -1327,13 +1243,13 @@
   ],
   "./mapDispatchToProps": [
     {
-      "id": 91,
+      "id": 85,
       "name": "./node_modules/react-redux/es/connect/mapDispatchToProps.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 91,
+      "id": 85,
       "name": "./node_modules/react-redux/es/connect/mapDispatchToProps.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -1341,13 +1257,13 @@
   ],
   "./_baseGetTag.js": [
     {
-      "id": 92,
+      "id": 86,
       "name": "./node_modules/lodash-es/_baseGetTag.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 92,
+      "id": 86,
       "name": "./node_modules/lodash-es/_baseGetTag.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -1355,13 +1271,13 @@
   ],
   "./_root.js": [
     {
-      "id": 93,
+      "id": 87,
       "name": "./node_modules/lodash-es/_root.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 93,
+      "id": 87,
       "name": "./node_modules/lodash-es/_root.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -1369,13 +1285,13 @@
   ],
   "./_freeGlobal.js": [
     {
-      "id": 94,
+      "id": 88,
       "name": "./node_modules/lodash-es/_freeGlobal.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 94,
+      "id": 88,
       "name": "./node_modules/lodash-es/_freeGlobal.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -1383,13 +1299,13 @@
   ],
   "./_getRawTag.js": [
     {
-      "id": 95,
+      "id": 89,
       "name": "./node_modules/lodash-es/_getRawTag.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 95,
+      "id": 89,
       "name": "./node_modules/lodash-es/_getRawTag.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -1397,13 +1313,13 @@
   ],
   "./_objectToString.js": [
     {
-      "id": 96,
+      "id": 90,
       "name": "./node_modules/lodash-es/_objectToString.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 96,
+      "id": 90,
       "name": "./node_modules/lodash-es/_objectToString.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -1411,13 +1327,13 @@
   ],
   "./_getPrototype.js": [
     {
-      "id": 97,
+      "id": 91,
       "name": "./node_modules/lodash-es/_getPrototype.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 97,
+      "id": 91,
       "name": "./node_modules/lodash-es/_getPrototype.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -1425,13 +1341,13 @@
   ],
   "./_overArg.js": [
     {
-      "id": 98,
+      "id": 92,
       "name": "./node_modules/lodash-es/_overArg.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 98,
+      "id": 92,
       "name": "./node_modules/lodash-es/_overArg.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -1439,13 +1355,13 @@
   ],
   "./isObjectLike.js": [
     {
-      "id": 99,
+      "id": 93,
       "name": "./node_modules/lodash-es/isObjectLike.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 99,
+      "id": 93,
       "name": "./node_modules/lodash-es/isObjectLike.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -1453,13 +1369,13 @@
   ],
   "symbol-observable": [
     {
-      "id": 100,
+      "id": 94,
       "name": "./node_modules/symbol-observable/es/index.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 100,
+      "id": 94,
       "name": "./node_modules/symbol-observable/es/index.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -1467,13 +1383,13 @@
   ],
   "./../../webpack/buildin/harmony-module.js": [
     {
-      "id": 101,
+      "id": 95,
       "name": "./node_modules/webpack/buildin/harmony-module.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 101,
+      "id": 95,
       "name": "./node_modules/webpack/buildin/harmony-module.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -1481,13 +1397,13 @@
   ],
   "./ponyfill.js": [
     {
-      "id": 102,
+      "id": 96,
       "name": "./node_modules/symbol-observable/es/ponyfill.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 102,
+      "id": 96,
       "name": "./node_modules/symbol-observable/es/ponyfill.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -1495,13 +1411,13 @@
   ],
   "./combineReducers": [
     {
-      "id": 103,
+      "id": 97,
       "name": "./node_modules/redux/es/combineReducers.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 103,
+      "id": 97,
       "name": "./node_modules/redux/es/combineReducers.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -1509,13 +1425,13 @@
   ],
   "./bindActionCreators": [
     {
-      "id": 104,
+      "id": 98,
       "name": "./node_modules/redux/es/bindActionCreators.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 104,
+      "id": 98,
       "name": "./node_modules/redux/es/bindActionCreators.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -1523,13 +1439,13 @@
   ],
   "./applyMiddleware": [
     {
-      "id": 105,
+      "id": 99,
       "name": "./node_modules/redux/es/applyMiddleware.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 105,
+      "id": 99,
       "name": "./node_modules/redux/es/applyMiddleware.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -1537,13 +1453,13 @@
   ],
   "./isPlainObject": [
     {
-      "id": 106,
+      "id": 100,
       "name": "./node_modules/react-redux/es/utils/isPlainObject.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 106,
+      "id": 100,
       "name": "./node_modules/react-redux/es/utils/isPlainObject.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -1551,13 +1467,13 @@
   ],
   "./mapStateToProps": [
     {
-      "id": 107,
+      "id": 101,
       "name": "./node_modules/react-redux/es/connect/mapStateToProps.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 107,
+      "id": 101,
       "name": "./node_modules/react-redux/es/connect/mapStateToProps.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -1565,13 +1481,13 @@
   ],
   "./mergeProps": [
     {
-      "id": 108,
+      "id": 102,
       "name": "./node_modules/react-redux/es/connect/mergeProps.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 108,
+      "id": 102,
       "name": "./node_modules/react-redux/es/connect/mergeProps.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -1579,13 +1495,13 @@
   ],
   "./selectorFactory": [
     {
-      "id": 109,
+      "id": 103,
       "name": "./node_modules/react-redux/es/connect/selectorFactory.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 109,
+      "id": 103,
       "name": "./node_modules/react-redux/es/connect/selectorFactory.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -1593,13 +1509,13 @@
   ],
   "./verifySubselectors": [
     {
-      "id": 110,
+      "id": 104,
       "name": "./node_modules/react-redux/es/connect/verifySubselectors.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 110,
+      "id": 104,
       "name": "./node_modules/react-redux/es/connect/verifySubselectors.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -1607,13 +1523,13 @@
   ],
   "./routes": [
     {
-      "id": 111,
+      "id": 105,
       "name": "./src/routes/index.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 111,
+      "id": 105,
       "name": "./src/routes/index.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -1621,13 +1537,13 @@
   ],
   "store/configStore": [
     {
-      "id": 112,
+      "id": 106,
       "name": "./src/store/configStore.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 112,
+      "id": 106,
       "name": "./src/store/configStore.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -1635,13 +1551,13 @@
   ],
   "redux-thunk": [
     {
-      "id": 113,
+      "id": 107,
       "name": "./node_modules/redux-thunk/es/index.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 113,
+      "id": 107,
       "name": "./node_modules/redux-thunk/es/index.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
@@ -1649,13 +1565,13 @@
   ],
   "reducers/reducers": [
     {
-      "id": 114,
+      "id": 108,
       "name": "./src/store/reducers/reducers.js",
       "file": "main.js",
       "publicPath": "/dist/main.js"
     },
     {
-      "id": 114,
+      "id": 108,
       "name": "./src/store/reducers/reducers.js",
       "file": "main.js.map",
       "publicPath": "/dist/main.js.map"
