@@ -57,7 +57,3 @@ typings/
 # dotenv environment variables file
 .env
 
-# build
-dist
-compilation-stats.json
-
