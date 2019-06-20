@@ -4,7 +4,7 @@
 https://medium.com/@slashtu/redux-ssr-and-code-splitting-by-component-based-29397a61fceb
 
 # How to run
-node version ^8.9.0
+node version ^12.0.0
 ```
 yarn install
 yarn dev
