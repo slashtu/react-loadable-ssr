@@ -1,14 +1,14 @@
 exports.ids = [2];
 exports.modules = {
 
-/***/ 18:
+/***/ 13:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 // EXTERNAL MODULE: external "isomorphic-unfetch"
-var external__isomorphic_unfetch_ = __webpack_require__(17);
+var external__isomorphic_unfetch_ = __webpack_require__(18);
 var external__isomorphic_unfetch__default = /*#__PURE__*/__webpack_require__.n(external__isomorphic_unfetch_);
 
 // EXTERNAL MODULE: external "react"

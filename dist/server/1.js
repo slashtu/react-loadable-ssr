@@ -1,7 +1,7 @@
 exports.ids = [1];
 exports.modules = {
 
-/***/ 14:
+/***/ 15:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -26,11 +26,11 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 var AsyncFetchAdoptionsComponent = __WEBPACK_IMPORTED_MODULE_1_react_loadable___default()({
   loader: function loader() {
-    return __webpack_require__.e/* import() */(2).then(__webpack_require__.bind(null, 18));
+    return __webpack_require__.e/* import() */(2).then(__webpack_require__.bind(null, 13));
   },
   modules: ['./FetchAdoptionsComponent'],
   webpack: function webpack() {
-    return [/*require.resolve*/(18)];
+    return [/*require.resolve*/(13)];
   },
   loading: __WEBPACK_IMPORTED_MODULE_2__Loading__["a" /* default */]
 });
